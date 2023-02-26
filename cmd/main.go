@@ -136,7 +136,7 @@ func main() {
 	}
 	ensureNoError(err, "SQLite database schema")
 
-	// OpenAI API
+	// ---- OpenAI API ----
 
 	gptClient := gpt3.NewClient(apiKeyOpenAI)
 
